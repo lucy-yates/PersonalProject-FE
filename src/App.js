@@ -23,16 +23,16 @@ function App() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <Link className="nav-link" to='/' style={{ color: '#428E3E' }}><b>About Me</b></Link>
+                <Link className="nav-link" to='/' style={{ color: '#A555E2' }}><b>About Me</b></Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to='/penportrait' style={{ color: '#12570F' }}><b>Pen Portrait</b></Link>
+                <Link className="nav-link" to='/penportrait' style={{ color: '#A555E2' }}><b>Pen Portrait</b></Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to='/calculator' style={{ color: '#A555E2' }}><b>Calculator</b></Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to='/favouritenumber' style={{ color: '#E14C56' }}><b>Favourite Number</b></Link>
+                <Link className="nav-link" to='/favouritenumber' style={{ color: '#A555E2' }}><b>Favourite Number</b></Link>
               </li>
             </ul>
           </div>

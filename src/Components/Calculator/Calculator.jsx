@@ -18,8 +18,8 @@ function Calculator() {
             </div>
 
             <div className="col">
-            <img src={divide} style={{ height: "300px", marginLeft: "50px", marginRight: "20px"}}></img>
-            <img src= {birthday} style={{height: "300px", marginLeft: "60px", marginRight: "20px", marginTop: "250px"}}></img>
+            <img src={divide} style={{ height: "300px", marginLeft: "150px"}}></img>
+            <img src= {birthday} style={{height: "300px", marginLeft: "160px",  marginTop: "250px"}}></img>
             </div>
 
         </div>
