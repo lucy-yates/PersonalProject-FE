@@ -11,8 +11,8 @@ return (
 
         <div className="row">
                 <div className="col">
-                    <img src={two} style={{ height: "300px", marginLeft: "20px" }}></img>
-                    <img src= {googolplex} style={{height: "300px", marginLeft: "20px", marginTop: "250px"}}></img>
+                    <img src={two}  alt="math fact"  style={{ height: "300px", marginLeft: "20px", position: "fixed" }}></img>
+                    <img src= {googolplex}  alt="math fact"  style={{height: "300px", marginLeft: "20px", marginTop: "450px", position: "fixed"}}></img>
                   
                 </div>
     
@@ -23,8 +23,8 @@ return (
                 </div>
     
                 <div className="col">
-                <img src={cards} style={{ height: "300px", marginLeft: "150px"}}></img>
-                <img src= {a} style={{height: "300px", marginLeft: "160px", marginTop: "250px"}}></img>
+                <img src={cards}  alt="math fact"  style={{ height: "300px", marginLeft: "80px", position: "fixed"}}></img>
+                <img src= {a}  alt="math fact"  style={{height: "300px", marginLeft: "90px", marginTop: "450px", position: "fixed" }}></img>
                 </div>
     
             </div>

@@ -3,43 +3,43 @@ import four from "../../fact6.png";
 import piano from "../../fact7.png";
 import forty from "../../fact8.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React, { useState } from 'react';
-import { Card, ListGroup, ListGroupItem, Carousel } from 'react-bootstrap';
+import React from 'react';
+import { Card } from 'react-bootstrap';
 
 function AboutMe() {
     return (
 
     <div className="row">
             <div className="col">
-                <img src={france} style={{ height: "300px", marginLeft: "20px" }}></img>
-                <img src= {four} style={{height: "300px", marginLeft: "35px", marginTop: "250px"}}></img>
+                <img src={france} alt="math fact" style={{ height: "300px", marginLeft: "20px" , position: "fixed"}}></img>
+                <img src= {four} alt="math fact"  style={{height: "300px", marginLeft: "35px", marginTop: "450px", position: "fixed"}}></img>
               
             </div>
 
             <div className="col">
-            <Card border="light" border-10>
+            <Card style={{marginTop: "75px"}} border="light" border-10>
                         <Card.Body>
                             <Card.Title><h1>About Me</h1></Card.Title>
                             <Card.Text>
-                                Welcome to L², where the convergence of passion for software engineering and an appreciation for the extraordinary has given birth to a unique online shopping experience.
+                               <b> Hello, and welcome to my website!</b> 
                             </Card.Text>
                             <Card.Text>
-                                Our story begins with Lucy and Liam, two driven individuals who embarked on a transformative journey through a software reskilling cohort at Lloyds Banking Group. Under the guidance of the infamous trainer, <i>Jordan Harrison</i>, a diabolical software engineer, they honed their skills and absorbed the intricacies of coding.
+                            My name is Lucy Ubsdell-Yates and I am a 22 year old junior software engineer.
                             </Card.Text>
                             <Card.Text>
-                                Lucy and Liam's original aspiration was to become software engineers for Lloyds Banking Group. However, destiny had a different path in mind. Undeterred by the twists of fate, they joined forces and ventured into the world of entrepreneurship, carving out a space for themselves in the vast digital landscape.
+                                I've been training since November 2023 and have gained skills in HTML, CSS, JavaScript and Java while building experience in React, Eclipse, MySQL and VS code.
                             </Card.Text>
                             <Card.Text>
-                                Our journey took an unexpected turn when Lucy and Liam, drawing inspiration from a legacy project at Lloyds, decided to weave their coding expertise into an online shopping platform. Thus, L² was born, a haven for those seeking exotic goods and, for the more adventurous, some intriguing and questionable occult artifacts.
+                                Before working at LBG, I studied Mathematics at the University of Chichester. Maths has always been my favourite subject at school. The way maths exists with or without us is fascinating. We use symbols to represent natural occurences and phenomena, but even if we didnt it would still occur. A fair two-sided coin has a 0.5 chance of landing on a certain side whether we say it does or not. We have just decided to give methods for representing these events.
                             </Card.Text>
                             <Card.Text>
-                                The success of L² has been nothing short of phenomenal, growing rapidly from its modest beginnings. What sets us apart is not just the diversity of our offerings but the dedication and passion that Lucy and Liam infuse into every line of code. Our online shop is a testament to their unwavering commitment to deliver a seamless and enjoyable shopping experience.
+                                As well as Mathematics, I have always loved music. The first birthday present I asked for when turning three was an Atomic Kitten album. I enjoy all music from hard rock to coutry and have always had the skill to pick up song lyrics after just one listen. 
                             </Card.Text>
                             <Card.Text>
-                                At L², we believe in pushing boundaries, embracing the extraordinary, and challenging the status quo. Our team may be small, but our ambitions are grand. We invite you to explore our digital emporium, where innovation meets curiosity, and discover treasures that transcend the ordinary.
+                                This website is a summary of my new software skills while staying true to my character.
                             </Card.Text>
                             <Card.Text>
-                                Thank <b>you</b> for being a part of our journey. Your adventure begins here at L².
+                                Thank you for visiting my website, I hope you enjoy.
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -47,8 +47,8 @@ function AboutMe() {
             </div>
 
             <div className="col">
-            <img src={forty} style={{ height: "300px", marginLeft: "150px", marginRight: "5px"}}></img>
-            <img src= {piano} style={{height: "300px", marginLeft: "160px", marginRight: "5px", marginTop: "250px"}}></img>
+            <img src={forty} alt="math fact"   style={{ height: "300px", marginLeft: "150px", marginRight: "5px", position: "fixed"}}></img>
+            <img src= {piano} alt="math fact"   style={{height: "300px", marginLeft: "160px", marginRight: "5px", marginTop: "450px", position: "fixed"}}></img>
             </div>
 
         </div>

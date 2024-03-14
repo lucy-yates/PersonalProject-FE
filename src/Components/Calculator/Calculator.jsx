@@ -8,8 +8,8 @@ function Calculator() {
 
         <div className="row">
             <div className="col">
-                <img src={zero} style={{ height: "300px", marginLeft: "20px" }}></img>
-                <img src= {odd} style={{height: "300px", marginLeft: "75px", marginTop: "250px"}}></img>
+                <img src={zero} alt="math fact"   style={{ height: "300px", marginLeft: "20px", position: "fixed" }}></img>
+                <img src= {odd}  alt="math fact"  style={{height: "300px", marginLeft: "75px", marginTop: "450px", position: "fixed"}}></img>
               
             </div>
 
@@ -18,8 +18,8 @@ function Calculator() {
             </div>
 
             <div className="col">
-            <img src={divide} style={{ height: "300px", marginLeft: "150px"}}></img>
-            <img src= {birthday} style={{height: "300px", marginLeft: "160px",  marginTop: "250px"}}></img>
+            <img src={divide}  alt="math fact"  style={{ height: "300px", marginLeft: "150px", position: "fixed"}}></img>
+            <img src= {birthday}  alt="math fact"  style={{height: "300px", marginLeft: "160px",  marginTop: "450px", position: "fixed"}}></img>
             </div>
 
         </div>

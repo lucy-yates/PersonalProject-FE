@@ -49,15 +49,18 @@ function CreateVisitor() {
   }
 
   return (
-    <div>
+    <div 
+     style={{ display: "flex", justifyContent: "center" }} 
+    >
       <form
-      style={{ color: '#000000' }}
+      style={{ color: '#000000', marginTop: "10px" }}
         onSubmit={(e) => {
           e.preventDefault();
           checkVisitor();
         }}
       >
         <h1>Tell me your favourite number!</h1>
+        <div style={{ display: "flex", flexDirection: "column" }} >
         <label>
           Name
           <input
@@ -84,7 +87,8 @@ function CreateVisitor() {
             onChange={(e) => setFavouriteNumber(e.target.value)}
           />
         </label>
-        <button type="submit" className="btn btn-primary">
+        </div>
+        <button type="submit" class="btn btn-outline-dark ">
           Register
         </button>
       </form>
