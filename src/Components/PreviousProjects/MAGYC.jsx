@@ -24,9 +24,7 @@ function MAGYC(){
                             <Card.Text>
                             Like the roof on fire 
                             </Card.Text>
-                            <Card.Text>
-                                This website is a summary of my new software skills while staying true to my character.
-                            </Card.Text>
+                          
                             <Card.Text>
                             We gon' drink drinks and take shots until we fall out
                             </Card.Text>
