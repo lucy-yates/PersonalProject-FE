@@ -2,6 +2,7 @@ import cake from "../../fact13.png";
 import hundred from "../../fact14.png";
 import paper from "../../fact15.png";
 import dice from "../../fact16.png";
+import pp from "../../pp.png"
 
 function PenPortrait() {
     return (
@@ -14,7 +15,7 @@ function PenPortrait() {
             </div>
 
             <div className="col">
-              
+              <img src={pp}></img>
             </div>
 
             <div className="col">
