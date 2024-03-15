@@ -1,4 +1,4 @@
-import tempcloud from "../../spaceholder.png";
+import cc from "../../Comma Chameleon.png"
 import { Card } from 'react-bootstrap';
 
 function CommaChameleon(){
@@ -6,7 +6,7 @@ function CommaChameleon(){
 
         <div className="row">
         <div className="col">
-             <img src={tempcloud} alt="cc logo" style={{ height: "500px", marginLeft: "200px", marginTop: "75px", position: "fixed" }}></img> 
+             <img src={cc} alt="cc logo" style={{ height: "500px", marginLeft: "200px", marginTop: "75px", position: "fixed" }}></img> 
             
         </div>
 

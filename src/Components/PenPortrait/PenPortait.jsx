@@ -15,7 +15,7 @@ function PenPortrait() {
             </div>
 
             <div className="col">
-              <img src={pp}></img>
+              <img src={pp} alt="pen portrait"></img>
             </div>
 
             <div className="col">
