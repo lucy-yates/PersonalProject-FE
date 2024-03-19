@@ -22,7 +22,7 @@ function DisplayVisitor() {
 
     useEffect(() => {
         getVisitor();
-    }, []);
+    }, [visitors]);
 
     const handleSubmit = (e) => {
         e.preventDefault();
