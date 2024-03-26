@@ -7,51 +7,46 @@ function JALAL(){
 
         <div className="row">
                     <div className="col">
-                         <img src={jalal} alt="jalal logo" style={{ height: "500px", marginLeft: "200px", marginTop: "75px", position: "fixed" }}></img> 
+                         <img src={jalal} alt="jalal logo" style={{ height: "500px", marginLeft: "200px", marginTop: "25px", position: "fixed" }}></img> 
                         
                     </div>
         
                     <div className="col">
-                    <Card style={{marginTop: "75px", marginRight: "200px"}} border="light" border-10>
+                    <Card style={{marginTop: "25px", marginRight: "200px", marginBottom: "25px"}} border="light" border-10>
                         <Card.Body>
                             <Card.Title><h1>Project 1 - JALAL</h1></Card.Title>
                             
                             <Card.Text>
-                            Mr. Worldwide to infinity
+                            For our first project, we were set with the challenge of building a real estate agencts website. My team decided to call our estate agency JALAL.
                             </Card.Text>
                             <Card.Text>
-                            You know the roof on fire
+                            We followed the methodology of agile, and the scrum framework. In following agile, within the confines of our set-up we focussed on individuals and interactions over processes and tools ensuring that we were all valued and that we communicated well. By following our scrum framwork, we really embraced the planning, implementation and retro values of the framework. Both scrum and agile were extremely valuable as they not only built team rapport but allowed us to celebrate our wins and plan to overcome our obstacles.
                             </Card.Text>
                             <Card.Text>
-                            We gon' boogie oogie oogie, jiggle, wiggle and dance
+                           As part of our planning stage, in order to breakdown our MVP into manageable chunks, we created user stories and acceptance criteria. After this we split them into epics.
                             </Card.Text>
                             <Card.Text>
-                            Like the roof on fire 
+                            As this was our first project, we used peer learning, working closely as a group. Taking it in turns to code with support from the remaining group members. 
                             </Card.Text>
                             <Card.Text>
-                            We gon' drink drinks and take shots until we fall out
+                            While completing the project we used JIRA, MIRO, VS Code and GitHub.
                             </Card.Text>
                             <Card.Text>
-                            Like the roof on fire
+                            We used React for the code and for styling we used a combination of Bootstrap and CSS.
                             </Card.Text>
                             <Card.Text>
-                            Now baby give a booty naked, take off all your clothes
+                            WE started with the code for our buyers and sellers. We used JSON arrays and HTTP post requests so all our data could be saved and displayed.
                             </Card.Text>
                             <Card.Text>
-                            And light the roof on fire
+                            We then moved on to properties, we followed a similar process to buyers and sellers to begin with. We then added a filter using a for loop to select the wanted properties. We also made sure the property status was ammendable.
                             </Card.Text>
                             <Card.Text>
-                            Tell her, tell her baby, baby, baby, baby, baby, baby, baby, baby, baby
+                            Finally we went to bookings. We styled our bookings in a table so that the data wasclear for the user to understand. Again, using AXIOS, we linked our booking page to our JSON file so we could keep track of our bookings.
                             </Card.Text>
                             <Card.Text>
-                            I'm on fire
+                            We learnt a lot from the project and it massively helped us in our future projects.
                             </Card.Text>
-                            <Card.Text>
-                            I tell her baby, baby, baby, baby, baby, baby, baby, baby, baby
-                            </Card.Text>
-                            <Card.Text>
-                            I'm a fireball
-                            </Card.Text>
+                            
                         </Card.Body>
                     </Card>
                     </div>
