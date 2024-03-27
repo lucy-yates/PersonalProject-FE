@@ -9,7 +9,7 @@ function LSquared(){
                     
         
         <div className="col">
-        <Card style={{marginTop: "75px", marginLeft: "150px"}} border="light" border-10>
+        <Card style={{marginTop: "25px", marginLeft: "25px", marginBottom:"25px"}} border="light" border-10>
             <Card.Body>
                 <Card.Title><h1>Project 4 - L Squared</h1></Card.Title>
                 
@@ -55,7 +55,7 @@ function LSquared(){
         </div>
 
         <div className="col">
-             <img src={lsquared} alt="l squared logo" style={{ height: "500px", marginRight: "200px",marginLeft: "200px", marginTop: "75px", position: "fixed" }}></img> 
+             <img src={lsquared} alt="l squared logo" style={{ height: "500px", marginRight: "25px",marginLeft: "150px", marginTop: "25px", position: "fixed" }}></img> 
             
         </div>
         

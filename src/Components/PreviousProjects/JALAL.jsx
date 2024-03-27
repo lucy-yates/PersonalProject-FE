@@ -7,12 +7,12 @@ function JALAL(){
 
         <div className="row">
                     <div className="col">
-                         <img src={jalal} alt="jalal logo" style={{ height: "500px", marginLeft: "200px", marginTop: "25px", position: "fixed" }}></img> 
+                         <img src={jalal} alt="jalal logo" style={{ height: "500px", marginLeft: "25px", marginTop: "25px", position: "fixed" }}></img> 
                         
                     </div>
         
                     <div className="col">
-                    <Card style={{marginTop: "25px", marginRight: "200px", marginBottom: "25px"}} border="light" border-10>
+                    <Card style={{marginTop: "25px", marginRight: "25px", marginBottom: "25px"}} border="light" border-10>
                         <Card.Body>
                             <Card.Title><h1>Project 1 - JALAL</h1></Card.Title>
                             
