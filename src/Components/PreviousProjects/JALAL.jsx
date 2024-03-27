@@ -23,19 +23,10 @@ function JALAL(){
                             We followed the methodology of agile, and the scrum framework. In following agile, within the confines of our set-up we focussed on individuals and interactions over processes and tools ensuring that we were all valued and that we communicated well. By following our scrum framwork, we really embraced the planning, implementation and retro values of the framework. Both scrum and agile were extremely valuable as they not only built team rapport but allowed us to celebrate our wins and plan to overcome our obstacles.
                             </Card.Text>
                             <Card.Text>
-                           As part of our planning stage, in order to breakdown our MVP into manageable chunks, we created user stories and acceptance criteria. After this we split them into epics.
+                           As part of our planning stage, in order to breakdown our MVP into manageable chunks, we created user stories and acceptance criteria. After this we split them into epics. As this was our first project, we used peer learning, working closely as a group. Taking it in turns to code with support from the remaining group members. While completing the project we used JIRA, MIRO, VS Code and GitHub. We used React for the code and for styling we used a combination of Bootstrap and CSS.
                             </Card.Text>
                             <Card.Text>
-                            As this was our first project, we used peer learning, working closely as a group. Taking it in turns to code with support from the remaining group members. 
-                            </Card.Text>
-                            <Card.Text>
-                            While completing the project we used JIRA, MIRO, VS Code and GitHub.
-                            </Card.Text>
-                            <Card.Text>
-                            We used React for the code and for styling we used a combination of Bootstrap and CSS.
-                            </Card.Text>
-                            <Card.Text>
-                            WE started with the code for our buyers and sellers. We used JSON arrays and HTTP post requests so all our data could be saved and displayed.
+                            We started with the code for our buyers and sellers. We used JSON arrays and HTTP post requests so all our data could be saved and displayed.
                             </Card.Text>
                             <Card.Text>
                             We then moved on to properties, we followed a similar process to buyers and sellers to begin with. We then added a filter using a for loop to select the wanted properties. We also made sure the property status was ammendable.

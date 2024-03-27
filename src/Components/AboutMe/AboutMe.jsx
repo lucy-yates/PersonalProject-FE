@@ -36,7 +36,7 @@ function AboutMe() {
                                 As well as Mathematics, I have always loved music. The first birthday present I asked for when turning three was an Atomic Kitten album. I enjoy all music from hard rock to coutry and have always had the skill to pick up song lyrics after just one listen. 
                             </Card.Text>
                             <Card.Text>
-                                This website is a summary of my new software skills while staying true to my character.
+                                This website is a display of my new skills with my own personal spin.
                             </Card.Text>
                             <Card.Text>
                                 Thank you for visiting my website, I hope you enjoy.

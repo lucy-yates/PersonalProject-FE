@@ -29,7 +29,7 @@ function MAGYC(){
                             Building the back-end allowed us to establish a solid foundation for our prokect. By focussing on the core functionality, data and logic behind the scenes, we were able to ensure our back-end was working correctly. We built the domain, rest, service and controller packages and designed the @OneToMany and @ManyToOne to bring everything together.
                             </Card.Text>
                             <Card.Text>
-                            we tested using postman to ensure everything was working before connecting our two applications. There were exisiting axios requests in the front-end, which allow the sending and receiving of data. By simply amending the path in these, we were able to link these together. At this point we faced a dew issues with our @OneToMany and @ManyToOne relationships but we learnt we needed to give the back reference and managed reference a matching value.
+                            We tested using postman to ensure everything was working before connecting our two applications. There were exisiting axios requests in the front-end, which allow the sending and receiving of data. By simply amending the path in these, we were able to link these together. At this point we faced a dew issues with our @OneToMany and @ManyToOne relationships but we learnt we needed to give the back reference and managed reference a matching value.
                             </Card.Text>
                             <Card.Text>
                             During this project, we developed a better understanding of the software we had used.
