@@ -75,7 +75,7 @@ function FavouriteMusic(){
       
       function handleMouseOver6(){
           setText6(<div style={{backgroundColor: "#E0D42E", color: "#FFFFFF"}} >
-            <p>Post Malone - beerbongs & bentleys</p>
+            <p>Post Malone - Beerbongs & Bentleys</p>
             <p style={{fontStyle: "italic"}}> <b>♫</b> I'm here, but dont count on me to stay <b>♫</b></p>
           </div>);
           setText5("");
@@ -231,38 +231,55 @@ function FavouriteMusic(){
                             </Card.Text>
 
                             <Card.Text>
-                               <h3> Reputation - Taylor Swift</h3> 
+                               <h3><b>Beerbongs & Bentleys - Post Malone</b></h3> 
                             </Card.Text>
                             <Card.Text>
-                            My name is Lucy Ubsdell-Yates and I am a 22 year old junior software engineer.
-                            </Card.Text>
-
-                            <Card.Text>
-                               <h3> Reputation - Taylor Swift</h3> 
+                                <h4><b>Duration:</b> 64:26 <b>Genre:</b> Hip Hop/Pop/R&B  <b>Favourite song:</b>  Rich & Sad </h4>
                             </Card.Text>
                             <Card.Text>
-                            My name is Lucy Ubsdell-Yates and I am a 22 year old junior software engineer.
+                            Beerbongs & Bentleys is the second studio album by American rapper and singer Post Malone, released 2018. In the United States, on the day of its release, Beerbongs & Bentleys broke streaming records on Spotify. The album achieved 47.9 million streams in the US and 78,744,000 streams globally on the music service within 24 hours. The album debuted at number one on the US Billboard 200, opening with 461,000 album-equivalent units in its first week, with 153,000 coming from pure sales.
                             </Card.Text>
 
                             <Card.Text>
-                               <h3> Reputation - Taylor Swift</h3> 
+                               <h3><b>Stereo Typical - Rizzle Kicks</b></h3> 
                             </Card.Text>
                             <Card.Text>
-                            My name is Lucy Ubsdell-Yates and I am a 22 year old junior software engineer.
+                                <h4><b>Duration:</b> 49:39 <b>Genre:</b> Hip Hop  <b>Favourite song:</b>  Miss Cigarette </h4>
+                            </Card.Text>
+                            <Card.Text>
+                            Stereo Typical is the debut studio album by English hip hop duo Rizzle Kicks, released 2011. The album reached number five on the official UK album charts and currently holds a Metacritic score of 70.
+                            </Card.Text>
+
+
+                            <Card.Text>
+                               <h3><b>LoveBlood - King Charles</b></h3> 
+                            </Card.Text>
+                            <Card.Text>
+                                <h4><b>Duration:</b> 38:10 <b>Genre:</b> Pop/Rock  <b>Favourite song:</b>  LoveLust </h4>
+                            </Card.Text>
+                            <Card.Text>
+                            LoveBlood is the debut studio album by English singer and songwriter King Charles, released 2012. The album reached number thirty six on the official UK album charts and after a near tragic accident which left him in intensive care for 10 days with brain trauma, and a long road to recovery, the album recieved 3.5/5 stars
+                            </Card.Text>
+                           
+                           
+                           <Card.Text>
+                               <h3><b>Night Driver - Busted</b></h3> 
+                            </Card.Text>
+                            <Card.Text>
+                                <h4><b>Duration:</b> 43:52 <b>Genre:</b> Synthpop/Alternative Pop <b>Favourite song:</b>  Those Days Are Gone </h4>
+                            </Card.Text>
+                            <Card.Text>
+                            Night Driver is the third studio album by English pop rock band Busted, released 2016.  The album reached number thirteen on the official UK album charts and was certified silver by the British Phonographic Industry for sales of over 60,000 copies.
                             </Card.Text>
 
                             <Card.Text>
-                               <h3> Reputation - Taylor Swift</h3> 
+                               <h3><b>Because the Internet - Childish Gambino</b></h3> 
                             </Card.Text>
                             <Card.Text>
-                            My name is Lucy Ubsdell-Yates and I am a 22 year old junior software engineer.
-                            </Card.Text>
-
-                            <Card.Text>
-                               <h3> Reputation - Taylor Swift</h3> 
+                                <h4><b>Duration:</b> 57;52 <b>Genre:</b> Hip Hop <b>Favourite song:</b>  V.3005 </h4>
                             </Card.Text>
                             <Card.Text>
-                            My name is Lucy Ubsdell-Yates and I am a 22 year old junior software engineer.
+                            Because the Internet is the second studio album by American recording artist Donald Glover, under the stage name Childish Gambino, released 2013. The album reached number seven on the US Billboard 200 and was met with generally positive reviews.
                             </Card.Text>
 
                         </Card.Body>
