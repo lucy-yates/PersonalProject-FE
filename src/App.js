@@ -10,6 +10,8 @@ import JALAL from "./Components/PreviousProjects/JALAL";
 import MAGYC from "./Components/PreviousProjects/MAGYC";
 import CommaChameleon from "./Components/PreviousProjects/CommaChameleon";
 import LSquared from "./Components/PreviousProjects/LSquared";
+import LP from "./Components/PreviousProjects/LP";
+import FavouriteMusic from "./Components/Music/FavouriteMusic";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavDropdown } from 'react-bootstrap';
@@ -42,14 +44,21 @@ function App() {
   <Link className="dropdown-item" to='/magyc'>MAGYC</Link>
   <Link className="dropdown-item" to='commachameleon'>Comma Chameleon</Link>
   <Link className="dropdown-item" to='/lsquared'>L Squared</Link>
+  <Link className="dropdown-item" to='/lp'>LP</Link>
 </NavDropdown>
 
               <li className="nav-item">
                 <Link className="nav-link" to='/calculator' style={{ color: '#A555E2' }}><b>Calculator</b></Link>
               </li>
+
+              <li className="nav-item">
+                <Link className="nav-link" to='/favouritemusic' style={{ color: '#A555E2' }}><b>Favourite Music</b></Link>
+              </li>
+
               <li className="nav-item">
                 <Link className="nav-link" to='/favouritenumber' style={{ color: '#A555E2' }}><b>Favourite Number</b></Link>
               </li>
+
             </ul>
           </div>
         </div>
@@ -64,6 +73,8 @@ function App() {
           <Route path= '/magyc' element={<MAGYC/>} />
           <Route path= '/commachameleon' element={<CommaChameleon/>} />
           <Route path= '/lsquared' element={<LSquared/>} />
+          <Route path= '/lp' element={<LP/>} />
+          <Route path= '/favouritemusic' element={<FavouriteMusic/>} />
         </Routes>
       </BrowserRouter>
   </div>

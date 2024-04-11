@@ -55,7 +55,7 @@ function LSquared(){
         </div>
 
         <div className="col">
-             <img src={lsquared} alt="l squared logo" style={{ height: "500px", marginRight: "25px",marginLeft: "150px", marginTop: "25px", position: "fixed" }}></img> 
+             <img src={lsquared} alt="l squared logo" style={{ width: "825px", marginRight: "25px",marginLeft: "25px", marginTop: "25px", position: "fixed" }}></img> 
             
         </div>
         

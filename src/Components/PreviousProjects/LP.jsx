@@ -1,20 +1,19 @@
-
-import jalal from "../../JALAL.jpeg"
+import lp from "../../LPLogo.png"
 import { Card } from 'react-bootstrap';
 
-function JALAL(){
+function LP(){
     return (
 
         <div className="row">
                     <div className="col">
-                         <img src={jalal} alt="jalal logo" style={{ maxWidth: "1000px", marginLeft: "25px", marginTop: "25px", position: "fixed" }}></img> 
+                         <img src={lp} alt="lp logo" style={{ width: "875px", marginLeft: "25px", marginTop: "25px", marginBottom: "25px", position: "fixed" }}></img> 
                         
                     </div>
         
                     <div className="col">
                     <Card style={{marginTop: "25px", marginRight: "25px", marginBottom: "25px"}} border="light" border-10>
                         <Card.Body>
-                            <Card.Title><h1>Project 1 - JALAL</h1></Card.Title>
+                            <Card.Title><h1>Project 5 - LP</h1></Card.Title>
                             
                             <Card.Text>
                             For our first project, we were set with the challenge of building a real estate agencts website. My team decided to call our estate agency JALAL.
@@ -47,4 +46,4 @@ function JALAL(){
                 </div>
             );
 }
-export default JALAL
+export default LP

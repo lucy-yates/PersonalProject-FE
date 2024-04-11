@@ -40,7 +40,7 @@ function MAGYC(){
                     </div>
         
                     <div className="col">
-                         <img src={magyc} alt="magyc logo" style={{ height: "500px", marginRight: "25px",marginLeft: "150px", marginTop: "25px", position: "fixed" }}></img> 
+                         <img src={magyc} alt="magyc logo" style={{ width: "825px", marginLeft: "25px",marginRight: "25px", marginTop: "25px", position: "fixed" }}></img> 
                         
                     </div>
                     

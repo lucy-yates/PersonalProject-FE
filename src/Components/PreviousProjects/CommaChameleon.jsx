@@ -6,7 +6,7 @@ function CommaChameleon(){
 
         <div className="row">
         <div className="col">
-             <img src={cc} alt="cc logo" style={{ height: "500px", marginLeft: "25px", marginTop: "25px", position: "fixed" }}></img> 
+             <img src={cc} alt="cc logo" style={{ maxWidth: "850px", marginLeft: "25px", marginTop: "25px", position: "fixed" }}></img> 
             
         </div>
 

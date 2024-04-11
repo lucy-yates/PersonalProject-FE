@@ -30,10 +30,10 @@ function AboutMe() {
                                 I've been training since November 2023 and have gained skills in HTML, CSS, JavaScript and Java while building experience in React, Eclipse, MySQL and VS code.
                             </Card.Text>
                             <Card.Text>
-                                Before working at LBG, I studied Mathematics at the University of Chichester. Maths has always been my favourite subject at school. The way maths exists with or without us is fascinating. We use symbols to represent natural occurences and phenomena, but even if we didnt it would still occur. A fair two-sided coin has a 0.5 chance of landing on a certain side whether we say it does or not. We have just decided to give methods for representing these events.
+                                Before working at LBG, I studied Mathematics at the University of Chichester. Maths has always been my favourite subject at school. The way maths exists with or without us is fascinating. We use symbols to represent natural occurences and phenomena, but even if we didnt it would still occur. A fair two-sided coin has a 50% chance of landing on a certain side whether we say it does or not. We have just decided to give methods for representing these events.
                             </Card.Text>
                             <Card.Text>
-                                As well as Mathematics, I have always loved music. The first birthday present I asked for when turning three was an Atomic Kitten album. I enjoy all music from hard rock to coutry and have always had the skill to pick up song lyrics after just one listen. 
+                                As well as Mathematics, I have always loved music. The first birthday present I asked for when turning three was an Atomic Kitten album. I enjoy all music from hard rock to country and have always had the skill to pick up song lyrics after just one listen. 
                             </Card.Text>
                             <Card.Text>
                                 This website is a display of my new skills with my own personal spin.
