@@ -1,7 +1,18 @@
 import "./music.css";
 import React, { useState } from "react";
 import { Card } from 'react-bootstrap';
-import ReadyForIt from "../../ReadyForIt.mp3";
+import Gorgeous from "../../gorgeousclip.mp3";
+import Robbers from "../../robbersclip.mp3";
+import SmokingOutTheWindow from "../../smokingoutthewindowclip.mp3";
+import LethalCombination from "../../lethalcombinationclip.mp3";
+import SeeYouAgain from "../../seeyouagainclip.mp3";
+import RichAndSad from "../../richandsadclip.mp3";
+import MissCigarette from "../../misscigaretteclip.mp3";
+import LoveLust from "../../lovelustclip.mp3";
+import ThoseDaysAreGone from "../../thosedaysaregoneclip.mp3";
+import v3005 from "../../v3005clip.mp3";
+import useSound from "use-sound";
+
 
 
 
@@ -18,31 +29,46 @@ function FavouriteMusic(){
     const [text8, setText8] = useState("");
     const [text9, setText9] = useState("");
     const [text10, setText10] = useState("");
-    // const[music1, setMusic1] = useState(Audio);
-    const taytay = new Audio(ReadyForIt);
-    // function handleMusic1(){
-    //     <audio controls autoplay>
-    //                         <source src={ReadyForIt} type="audio/mpeg" />
-    //                     </audio>
-    //         };
+    const soundUrl1 = Gorgeous;
+    const [play1,{stop}] = useSound(soundUrl1)
+    const soundUrl2 = Robbers;
+    const [play2, { stop: stop2}] = useSound(soundUrl2)
+    const soundUrl3 = SmokingOutTheWindow;
+    const [play3, { stop: stop3}] = useSound(soundUrl3)
+    const soundUrl4 = LethalCombination;
+    const [play4, { stop: stop4}] = useSound(soundUrl4)
+    const soundUrl5 = SeeYouAgain;
+    const [play5, { stop: stop5}] = useSound(soundUrl5)
+    const soundUrl6 = RichAndSad;
+    const [play6, { stop: stop6}] = useSound(soundUrl6)
+    const soundUrl7 = MissCigarette;
+    const [play7, { stop: stop7}] = useSound(soundUrl7)
+    const soundUrl8 = LoveLust;
+    const [play8, { stop: stop8}] = useSound(soundUrl8)
+    const soundUrl9 = ThoseDaysAreGone;
+    const [play9, { stop: stop9}] = useSound(soundUrl9)
+    const soundUrl10 = v3005;
+    const [play10, { stop: stop10}] = useSound(soundUrl10)
+
+ 
+
+    
 
     function handleMouseOver1() {
         
       setText1(<div style={{ backgroundColor: "#BABABA", color: "#000000"}}>
         <p >Taylor Swift - Reputation</p>
-        <p style={{fontStyle: "italic"}}><b>♫</b> In the middle of the night, in my dreams, you should see the things we do <b>♫</b></p>
+        {/* <p style={{fontStyle: "italic"}}><b>♫</b> In the middle of the night, in my dreams, you should see the things we do baby <b>♫</b></p> */}
       </div>);
       setText2("");
-   <audio controls>
-                             <source src={taytay} type="audio/mpeg" />
-                       </audio>
+
 
        };
     
     function handleMouseOver2(){
         setText2(<div>
             <p>The 1975 - The 1975</p>
-            <p style={{fontStyle: "italic"}}> <b>♫</b> God, I love the way you love yourself <b>♫</b></p>
+            {/* <p style={{fontStyle: "italic"}}> <b>♫</b> God, I love the way you love yourself <b>♫</b></p> */}
           </div>);
         setText1("");
     }
@@ -51,7 +77,7 @@ function FavouriteMusic(){
         
         setText3(<div style={{ backgroundColor: "#BF9C78", color: "#FFFFFF"}}>
             <p>Silk Sonic - An Evening With Silk Sonic</p>
-            <p style={{fontStyle: "italic"}}> <b>♫</b> After last night, I think I'm in love with you <b>♫</b></p>
+            {/* <p style={{fontStyle: "italic"}}> <b>♫</b> After last night, I think I'm in love with you <b>♫</b></p> */}
           </div>);
         setText4("");
       };
@@ -59,7 +85,7 @@ function FavouriteMusic(){
       function handleMouseOver4(){
           setText4(<div style={{ backgroundColor: "#DF2A2A", color: "#FFFFFF"}} >
             <p>The Wombats - Beautiful People Will Ruin Your Life</p>
-            <p style={{fontStyle: "italic"}}> <b>♫</b> You could give an aspirin the headache of its life <b>♫</b></p>
+            {/* <p style={{fontStyle: "italic"}}> <b>♫</b> You could give an aspirin the headache of its life <b>♫</b></p> */}
           </div>);
           setText3("");
       }
@@ -68,7 +94,7 @@ function FavouriteMusic(){
         
         setText5(<div  style={{backgroundColor: "#FFB647", color: "#FFFFFF"}}>
             <p>Tyler, the Creator - Flower Boy</p>
-            <p style={{fontStyle: "italic"}}> <b>♫</b> I wonder if you look both ways when you cross my mind <b>♫</b></p>
+            {/* <p style={{fontStyle: "italic"}}> <b>♫</b> I wonder if you look both ways when you cross my mind <b>♫</b></p> */}
           </div>);
         setText6("");
       };
@@ -76,7 +102,7 @@ function FavouriteMusic(){
       function handleMouseOver6(){
           setText6(<div style={{backgroundColor: "#E0D42E", color: "#FFFFFF"}} >
             <p>Post Malone - Beerbongs & Bentleys</p>
-            <p style={{fontStyle: "italic"}}> <b>♫</b> I'm here, but dont count on me to stay <b>♫</b></p>
+            {/* <p style={{fontStyle: "italic"}}> <b>♫</b> I'm here, but dont count on me to stay <b>♫</b></p> */}
           </div>);
           setText5("");
       }
@@ -85,7 +111,7 @@ function FavouriteMusic(){
         
         setText7(<div style={{backgroundColor: "#A6EE90", color: "#FFFFFF"}} >
             <p>Rizzle Kicks - Stereo Typical</p>
-            <p style={{fontStyle: "italic"}}> <b>♫</b> She feeds my addiction, she leaks something different <b>♫</b></p>
+            {/* <p style={{fontStyle: "italic"}}> <b>♫</b> She feeds my addiction, she leaks something different <b>♫</b></p> */}
           </div>);
         setText8("");
       };
@@ -93,7 +119,7 @@ function FavouriteMusic(){
       function handleMouseOver8(){
           setText8(<div  style={{backgroundColor: "#2556B6", color: "#FFFFFF"}}>
             <p>King Charles - LoveBlood</p>
-            <p style={{fontStyle: "italic"}}> <b>♫</b> I'd give it all up for your hand in my hand <b>♫</b></p>
+            {/* <p style={{fontStyle: "italic"}}> <b>♫</b> I'd give it all up for your hand in my hand <b>♫</b></p> */}
           </div>);
           setText7("");
       }
@@ -101,7 +127,7 @@ function FavouriteMusic(){
         
         setText9(<div   style={{backgroundColor: "#DA9EFF", color: "#FFFFFF"}}>
             <p>Busted - Night Driver</p>
-            <p style={{fontStyle: "italic"}}> <b>♫</b> I'll break your heart in the end <b>♫</b></p>
+            {/* <p style={{fontStyle: "italic"}}> <b>♫</b> I'll break your heart in the end <b>♫</b></p> */}
           </div>);
         setText10("");
       };
@@ -109,7 +135,7 @@ function FavouriteMusic(){
       function handleMouseOver10(){
           setText10(<div  style={{backgroundColor: "#EA4D65", color: "#FFFFFF"}}>
             <p>Childish Gambino - Because the Internet</p>
-            <p style={{fontStyle: "italic"}}> <b>♫</b> I'll be right by your side 'til 3005 <b>♫</b></p>
+            {/* <p style={{fontStyle: "italic"}}> <b>♫</b> I'll be right by your side 'til 3005 <b>♫</b></p> */}
           </div>);
           setText9("");
       }
@@ -137,42 +163,52 @@ function FavouriteMusic(){
           
           
 
-
+          
             <div className="gallery-wrap" style={{marginTop: "50px"}}>
-              <div className="item item-1" id="1" onMouseOver={handleMouseOver1} onMouseOut={handleMouseOut}>
-              {text1 && <p className="text">{text1}</p>}
-             
-              
-              </div>
 
-              <div className="item item-2" id="2" onMouseOver={handleMouseOver2} onMouseOut={handleMouseOut}>
+
+               
+              <div className="item item-1" id="1" onMouseOver={()=> { handleMouseOver1(); play1(); }} onMouseOut={()=> {handleMouseOut(); stop();}}>
+              {text1 && <p className="text">{text1}</p>}
+              </div>
+              
+
+              <div className="item item-2" id="2" onMouseOver={()=> { handleMouseOver2(); play2(); }} onMouseOut={()=> {handleMouseOut(); stop2();}}>
               {text2 && <p className="text">{text2}</p>}
               </div>
 
-              <div className="item item-3" id="3"onMouseOver={handleMouseOver3} onMouseOut={handleMouseOut}>
+              <div className="item item-3" id="3"onMouseOver={()=> { handleMouseOver3(); play3(); }} onMouseOut={()=> {handleMouseOut(); stop3();}}>
               {text3 && <p className="text">{text3}</p>}
               </div>
-              <div className="item item-4"id="4" onMouseOver={handleMouseOver4} onMouseOut={handleMouseOut}>
+             
+              <div className="item item-4"id="4" onMouseOver={()=> { handleMouseOver4(); play4(); }} onMouseOut={()=> {handleMouseOut(); stop4();}}>
               {text4 && <p className="text">{text4}</p>}
               </div>
-              <div className="item item-5" id="5"onMouseOver={handleMouseOver5} onMouseOut={handleMouseOut} >
+             
+              <div className="item item-5" id="5" onMouseOver={()=> { handleMouseOver5(); play5(); }} onMouseOut={()=> {handleMouseOut(); stop5();}} >
               {text5 && <p className="text">{text5}</p>}
               </div>
-              <div className="item item-6"id="6" onMouseOver={handleMouseOver6} onMouseOut={handleMouseOut} >
+             
+              <div className="item item-6"id="6" onMouseOver={()=> { handleMouseOver6(); play6(); }} onMouseOut={()=> {handleMouseOut(); stop6();}} >
               {text6 && <p className="text">{text6}</p>}
               </div>
-              <div className="item item-7"id="7" onMouseOver={handleMouseOver7} onMouseOut={handleMouseOut}>
+             
+              <div className="item item-7"id="7" onMouseOver={()=> { handleMouseOver7(); play7(); }} onMouseOut={()=> {handleMouseOut(); stop7();}}>
               {text7 && <p className="text">{text7}</p>}
               </div>
-              <div className="item item-8" id="8" onMouseOver={handleMouseOver8} onMouseOut={handleMouseOut}>
+             
+              <div className="item item-8" id="8" onMouseOver={()=> { handleMouseOver8(); play8(); }} onMouseOut={()=> {handleMouseOut(); stop8();}}>
               {text8 && <p className="text">{text8}</p>}
               </div>
-              <div className="item item-9"id="9" onMouseOver={handleMouseOver9} onMouseOut={handleMouseOut}>
+             
+              <div className="item item-9"id="9" onMouseOver={()=> { handleMouseOver9(); play9(); }} onMouseOut={()=> {handleMouseOut(); stop9();}}>
               {text9 && <p className="text">{text9}</p>}
               </div>
-              <div className="item item-10"id="10" onMouseOver={handleMouseOver10} onMouseOut={handleMouseOut}>
+             
+              <div className="item item-10"id="10" onMouseOver={()=> { handleMouseOver10(); play10(); }} onMouseOut={()=> {handleMouseOut(); stop10();}}>
               {text10 && <p className="text">{text10}</p>}
               </div>
+            
             </div>
            </div>
           
@@ -276,7 +312,7 @@ function FavouriteMusic(){
                                <h3><b>Because the Internet - Childish Gambino</b></h3> 
                             </Card.Text>
                             <Card.Text>
-                                <h4><b>Duration:</b> 57;52 <b>Genre:</b> Hip Hop <b>Favourite song:</b>  V.3005 </h4>
+                                <h4><b>Duration:</b> 57:52 <b>Genre:</b> Hip Hop <b>Favourite song:</b>  V.3005 </h4>
                             </Card.Text>
                             <Card.Text>
                             Because the Internet is the second studio album by American recording artist Donald Glover, under the stage name Childish Gambino, released 2013. The album reached number seven on the US Billboard 200 and was met with generally positive reviews.
