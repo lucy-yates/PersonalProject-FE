@@ -97,7 +97,7 @@ function DisplayVisitor() {
                                 ) : (
                                     <>
                                         <button class="btn btn-outline-dark " style={{ backgroundColor: '#DFF7DE'}} onClick={() => handleEdit(visitor)}>Edit</button>
-                                        <button class="btn btn-outline-dark "style={{ backgroundColor: '#DFF7DE'}} onClick={() => deleteVisitor(visitor.id)}>Delete</button>
+                                        <button class="btn btn-outline-dark "style={{ backgroundColor: '#DFF7DE', marginLeft: "15px"}} onClick={() => deleteVisitor(visitor.id)}>Delete</button>
                                     </>
                                 )}
                             </div>

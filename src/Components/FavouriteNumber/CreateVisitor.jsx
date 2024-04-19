@@ -62,8 +62,10 @@ function CreateVisitor() {
         <h1>Tell me your favourite number!</h1>
         <div style={{ display: "flex", flexDirection: "column" }} >
         <label>
-          Name
+         
           <input
+          class="form-control form-control-lg"
+          placeholder="Name"
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
@@ -71,8 +73,10 @@ function CreateVisitor() {
         </label>
         <br/>
         <label>
-          Age
+        
           <input
+          class="form-control form-control-lg"
+          placeholder="Age"
             type="text"
             value={age}
             onChange={(e) => setAge(e.target.value)}
@@ -80,15 +84,17 @@ function CreateVisitor() {
         </label>
         <br/>
         <label>
-          Favourite Number
+          
           <input
+          class="form-control form-control-lg"
+          placeholder="Favourite Number"
             type="text"
             value={favouriteNumber}
             onChange={(e) => setFavouriteNumber(e.target.value)}
           />
         </label>
         </div>
-        <button type="submit" class="btn btn-outline-dark ">
+        <button style={{marginTop: "25px"}} type="submit" class="btn btn-outline-dark  btn-lg btn-block">
           Register
         </button>
       </form>
