@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import AboutMe from './Components/AboutMe/AboutMe';
 import PenPortrait from './Components/PenPortrait/PenPortait';
 import Calculator from './Components/Calculator/Calculator';
-import FavouriteNumber from './Components/FavouriteNumber/FavouriteNumber';
+import Visitor from "./Components/FavouriteNumber/Visitor";
 import PreviousProjects from "./Components/PreviousProjects/PreviousProjects";
 import JALAL from "./Components/PreviousProjects/JALAL";
 import MAGYC from "./Components/PreviousProjects/MAGYC";
@@ -52,11 +52,11 @@ function App() {
               </li>
 
               <li className="nav-item">
-                <Link className="nav-link" to='/favouritemusic' style={{ color: '#A555E2' }}><b>Favourite Music</b></Link>
+                <Link className="nav-link" to='/favouritemusic' style={{ color: '#A555E2' }}><b>Rainbow of Music</b></Link>
               </li>
 
               <li className="nav-item">
-                <Link className="nav-link" to='/favouritenumber' style={{ color: '#A555E2' }}><b>Favourite Number</b></Link>
+                <Link className="nav-link" to='/visitor' style={{ color: '#A555E2' }}><b>Visitor Check-In</b></Link>
               </li>
 
             </ul>
@@ -67,7 +67,7 @@ function App() {
           <Route path='/' element={<AboutMe />} />
           <Route path='/penportrait' element={<PenPortrait />} />
           <Route path='/calculator' element={<Calculator />} />
-          <Route path='/favouritenumber' element={<FavouriteNumber />} />
+          <Route path='/visitor' element={<Visitor />} />
           <Route path= '/previousprojects' element={<PreviousProjects/>} />
           <Route path= '/jalal' element={<JALAL/>} />
           <Route path= '/magyc' element={<MAGYC/>} />

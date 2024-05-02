@@ -6,6 +6,7 @@ function CreateVisitor() {
   const [name, setName] = useState("");
   const [age, setAge] = useState("");
   const [favouriteNumber, setFavouriteNumber] = useState("");
+  const [favouriteSong, setFavouriteSong] = useState("");
 
 
   function checkVisitor() {
@@ -34,12 +35,14 @@ function CreateVisitor() {
         name,
         age,
         favouriteNumber,
+        favouriteSong,
       })
       .then((response) => {
         console.log(response);
         setName("");
         setAge("");
         setFavouriteNumber("");
+        setFavouriteSong("");
         alert("Visitor added successfully");
 
 
@@ -59,7 +62,7 @@ function CreateVisitor() {
           checkVisitor();
         }}
       >
-        <h1>Tell me your favourite number!</h1>
+        <h1 style={{textAlign: "center"}}>Check-In Here</h1>
         <div style={{ display: "flex", flexDirection: "column" }} >
         <label>
          
@@ -93,8 +96,20 @@ function CreateVisitor() {
             onChange={(e) => setFavouriteNumber(e.target.value)}
           />
         </label>
+        <br/>
+        <label>
+          
+          <input
+          class="form-control form-control-lg"
+          placeholder="Favourite Song"
+            type="text"
+            value={favouriteSong}
+            onChange={(e) => setFavouriteSong(e.target.value)}
+          />
+        </label>
         </div>
-        <button style={{marginTop: "25px"}} type="submit" class="btn btn-outline-dark  btn-lg btn-block">
+        <br/>
+        <button  type="submit" class="btn btn-outline-dark  btn-lg btn-block">
           Register
         </button>
       </form>

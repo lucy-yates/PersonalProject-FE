@@ -5,7 +5,7 @@ import a from "../../fact12.png";
 import CreateVisitor from "./CreateVisitor";
 import DisplayVisitor from "./DisplayVisitor";
 
-function FavouriteNumber() {
+function Visitor() {
 return (
     
 
@@ -31,4 +31,4 @@ return (
         
 );
 }
-export default FavouriteNumber
+export default Visitor

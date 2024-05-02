@@ -8,7 +8,8 @@ function DisplayVisitor() {
     const [formData, setFormData] = useState({
         name: "",
         age: "",
-        favouriteNumber: ""
+        favouriteNumber: "",
+        favouriteSong: ""
     });
 
     const getVisitor = () => {
@@ -34,7 +35,8 @@ function DisplayVisitor() {
                 setFormData({
                     name: "",
                     age: "",
-                    favouriteNumber: ""
+                    favouriteNumber: "",
+                    favouriteSong: ""
                 });
             })
             .catch(console.error);
@@ -52,7 +54,8 @@ function DisplayVisitor() {
         setFormData({
             name: visitor.name,
             age: visitor.age,
-            favouriteNumber: visitor.favouriteNumber
+            favouriteNumber: visitor.favouriteNumber,
+            favouriteSong: visitor.favouriteSong
         });
     };
 
@@ -61,7 +64,8 @@ function DisplayVisitor() {
         setFormData({
             name: "",
             age: "",
-            favouriteNumber: ""
+            favouriteNumber: "",
+            favouriteSong: ""
         });
     };
 
@@ -86,11 +90,13 @@ function DisplayVisitor() {
                                 <p className="card-text">Name: {visitor.name}</p>
                                 <p className="card-text">Age: {visitor.age}</p>
                                 <p className="card-text">Favourite Number: {visitor.favouriteNumber}</p>
+                                <p className="card-text">Favourite Song: {visitor.favouriteSong}</p>
                                 {editingVisitor && editingVisitor.id === visitor.id ? (
                                     <form onSubmit={handleSubmit}>
                                         <input type="text" name="name" value={formData.name} onChange={handleChange} />
                                         <input type="text" name="age" value={formData.age} onChange={handleChange} />
                                         <input type="text" name="favouriteNumber" value={formData.favouriteNumber} onChange={handleChange} />
+                                        <input type="text" name="favouriteSong" value={formData.favouriteSong} onChange={handleChange} />
                                         <button type="submit">Save</button>
                                         <button type="button" onClick={handleCancel}>Cancel</button>
                                     </form>

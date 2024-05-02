@@ -156,7 +156,11 @@ function FavouriteMusic(){
 
         return (
             <div>
-
+<div>
+  {/* <h1 style={{textAlign: "center", color: "black", fontWeight: "300"}}> <b>My Rainbow of Music</b> </h1>  */}
+  <br/>
+  <h4 style={{textAlign: "center", color: "black", fontWeight: "300"}}>  VOLUME: ▁▂▃▄▅▆▇ 100%</h4>
+</div>
             
             <div className="container">
            
@@ -215,7 +219,7 @@ function FavouriteMusic(){
            <div>
            <Card style={{marginTop: "50px"}} border="light" border-10>
                         <Card.Body>
-                            <Card.Title><h1><b>About the albums</b></h1></Card.Title>
+                            <Card.Title><h1><b> About the albums  </b></h1></Card.Title>
                             <Card.Text>
                                <h3><b>Reputation - Taylor Swift</b></h3> 
                             </Card.Text>
